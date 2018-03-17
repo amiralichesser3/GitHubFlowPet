@@ -9,7 +9,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/okButton"
-        android:text="Ok"/>
+        android:id="@+id/okButton1"
+        android:text="Ok"/>`
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/okButton2"
+        android:text="Ok"/>
 </android.support.constraint.ConstraintLayout>
