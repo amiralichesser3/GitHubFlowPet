@@ -11,10 +11,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.okButton).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.okButton1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, FeatureActivityA.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.okButton2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, FeatureActivityB.class);
                 startActivity(intent);
             }
         });
